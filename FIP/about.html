@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>About</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+</head>
+<body>
+	<!--header section start -->
+    <div class="header_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo"><a href="index.html"><img src="images/logo.svg" height="100" width="70"></a></div>
+                </div>
+                <div class="col-md-9">
+                    <div class="menu_text">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>                                                    
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
+                            <li><a href="contact.html">CONTACT US</a></li>
+                            <li><a href="#"><img src="images/search-icon.png"></a></li>
+                            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="index.html">HOME</a>
+                  <a href="about.html">ABOUT</a>
+                  <a href="gallery.html">GALLERY</a>
+                  <a href="contact.html">CONTACT US</a>
+                </div>
+                </div>
+                <span  style="font-size:33px;cursor:pointer; color: #ffffff;" onclick="openNav()"><img src="images/toggle.png" class="toggle_menu"></span>
+                </div>  
+                </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section end -->
+    <!-- about section start -->
+    <div class="about_section_2 layout_padding">
+        <div class="container">
+            <h1 class="about_text_2"><strong>ABOUT</strong></h1>
+            <p class="client_long_text">The dog has been selectively bred over millennia for various behaviors, sensory capabilities and physical attributes. Dogs are subclassified into breeds, which vary widely in shape, size and color. They perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and the military, companionship, therapy, and aiding disabled people. This influence on human society has given them the sobriquet of "man's best friend."</p>
+        </div>
+    </div>
+    <div class="about_section about_main">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about_taital">
+                    <h1 class="about_text">ABOUT DOGS </h1>
+                    <p class="long_text_2">The domestic dog (Canis familiaris or Canis lupus familiaris) is a domesticated form of wolf. The dog descended from an ancient, extinct wolf, with the modern grey wolf being the dog's nearest living relative. The dog was the first species to be domesticated by hunter–gatherers over 15,000 years ago, before the development of agriculture. Their long association with humans has led dogs to be uniquely attuned to human behavior, enabling an abundant cosmopolitan distribution and the ability to thrive on a starch-rich diet that would be inadequate for other canids.</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about_img"><img src="images/about1.jpg" height="200%" width="750%"></div>
+            </div>
+        </div>
+    </div>
+    <!-- about section end -->
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+        <div class="footer_section_2">
+          <div class="container">
+            <div class="row map_addres">
+              <div class="col-sm-12 col-lg-4">
+                <div class="map_text"><img src="images/map-icon.png"><span class="map_icon">Unit 15, 1450 morisset ave ottawa K1Z 8H5</span></div>
+              </div>
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="map_text"><img src="images/phone-icon.png"><span class="map_icon">( +91 8427844819 )</span></div>
+                    </div>
+              <div class="col-sm-12 col-lg-4">
+                <div class="map_text"><img src="images/email-icon.png"><span class="map_icon">mithu28400@gmail.com</span></div>
+              </div>
+            </div>
+            <div class="social_icon">
+              <ul>
+                <li><a href="https://m.facebook.com/jot.bhaloor/"><img src="images/fb-icon.png"></a></li>
+                <li><a href="https://www.twitter.com/JotPree58114657"><img src="images/twitter-icon.png"></a></li>
+                <li><a href="https://www.instagram.com/jotpreet_7399/"><img src="images/instagram-icon.png"></a></li>
+              </ul>
+            </div>
+            <p class="copyright_text">Copyright 2019 All Right Reserved By.<a href="https://html.design"> Jotpreet Singh Brar</p>
+          </div>
+        </div>
+    </div>
+    <!-- footer section end -->
+   
+      <script>
+      $(document).ready(function(){
+      $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+         
+         $(".zoom").hover(function(){
+         
+         $(this).addClass('transition');
+         }, function(){
+         
+         $(this).removeClass('transition');
+         });
+         });
+         </script> 
+
+
+   <script>
+    function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+   document.getElementById("myNav").style.width = "0%";
+   }
+</script>
+
+
+
+     
+</body>
+</html>    
